@@ -6,6 +6,7 @@ export function setupPractice (element) {
   // du ska kunna förklara vad, hur varför PM
 
   // Samtliga delar finns förklarade/beskrivna https://webbutveckling.jensa.dev/tekniker/javascript/
+  
   varsAndTypes(element)
   operators(element)
   controlStructures(element)
@@ -19,34 +20,60 @@ export function setupPractice (element) {
 function varsAndTypes(element) {
   // kod för att visa vad du lärt dig om variabler och typer
   let varsAndTypes = 'varsAndTypes'
+  let x = 0
   console.log(varsAndTypes, typeof(varsAndTypes))
 }
 
 function operators(element) {
   // kod för att visa vad du lärt dig om operatorer
-  console.log('operators === ', 1 === 1)
+  let x = 0
+  console.log('operators ===  ', x === 1)
 }
 
 function controlStructures(element) {
   // kod för att visa vad du lärt dig om kontrollstrukturer
   // if och loopar
   let controlStructures = 'controlStructures'
+  let x = 0 
+  while(x<5){
+    console.log(x)
+    x++
+  }
   console.log(controlStructures, controlStructures ? 'if' : 'loopar')
 }
 
 function arraysAndObjects (element) {
   // kod för att visa vad du lärt dig om arrays och objekt
+  const arrej =[11,22,33,44]
+  console.log(arrej[2])
   console.log(['arrays', {and: 'objects'}])
 }
+
 
 function domAndEvents (element) {
   // kod för att visa vad du lärt dig om DOM och events
   // använd med html och listeners
-  console.log(element, 'lyssna efter event för att ändra element')
+  Knapp.addEventListener('click', ()  =>{
+    let x =0
+  x++
+console.log(x)
+  }
+) 
+
+  
+
+  
 }
 
 function domManipulation (element) {
   // kod för att visa vad du lärt dig om DOM-manipulation
   // skapa element och lägga till och ta bort
   element.innerHTML = 'dom manipulation, ändra och lägg till element'
+  Monkey.addEventListener('click', ()  =>{ 
+    
+    Big.classList.toggle
+   console.log('apa')
+  })
 }
+
+// element.classList.add() element.classList.toggle element.classList.remove8) .hidden
