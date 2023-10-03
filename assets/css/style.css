@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+ 
 }
 
 h1 {
@@ -101,6 +102,11 @@ img{
   height: 11cm;
 }
 
-.big{
-  background-color: chartreuse
+
+
+.Big{
+  background-color: rgb(234, 0, 255);
+  
 }
+
+
