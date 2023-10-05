@@ -68,18 +68,18 @@ function domAndEvents(element) {
 function domManipulation(element, Big, ) {
   // kod för att visa vad du lärt dig om DOM-manipulation
   // skapa element och lägga till och ta bort
-  element.innerHTML = 'dom manipulation, ändra och lägg till element'
+  element.innerHTML = 'APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA APA'
+  let x = 0
   Monkey.addEventListener('click', () => {
-    console.log('apa')
-    element.classList
-    element.classList.add('.Big')
-    //element.classList.toggle('.Big')
+    console.log('paow')
+    //element.classList.add('Big')
+    element.classList.toggle('Big')
     //element.classList.remove('.Big')
-  
+    x++
  
   })
   Monkey2.addEventListener('click', () => {
-    
+  console.log(x)
   })
 }
 
